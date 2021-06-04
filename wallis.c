@@ -27,10 +27,11 @@ int main(void) {
     int i;
     float k,ans=1.0;
     for (i=1;i<=n;i++)
-    }
-  k=(float)(4*i*i)/(4*i*i-1);
-  ans=ans*k;
+    
+    {
+      k=(float)(4*i*i)/(4*i*i-1);
+      ans=ans*k;
 }
-return(2*ans);
+    return(2*ans);
 }
 
